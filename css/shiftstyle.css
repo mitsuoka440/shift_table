@@ -1,0 +1,451 @@
+body {
+  background    : #000033;
+  color         : #ffffff;
+  min-height    : 100vh;
+  display       : flex;
+  flex-flow     : column;
+  margin-left   : auto;
+  margin-right  : auto;
+}
+header{
+  width: 100%;
+  text-align    : center;
+  background    : #000033;
+  z-index: 2;
+}
+/* レスポンシブ用 */
+.pc_window{
+  display:block;
+}
+.phone_window{
+  display:none;
+}
+.p_spread{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  display       : block;
+  overflow-x    : scroll;
+}
+.left_header{
+  position      : sticky;
+  left:0;
+}
+.menuheder{
+  text-align    : center;
+  position      : fixed;
+  border-bottom : solid;
+  box-shadow    : 2px 3px 2px #333333;   / 影の設定 */
+}
+.imagesize{
+  width         : 70vw;
+  height        : auto;
+  max-width     : 500px;
+}
+.content{
+  text-align    : center;
+  padding-top   : 90px;
+  overflow      : hidden;
+}
+p{
+  font-size     : 14px;
+}
+form{
+  text-align    : center;
+}
+h1{
+  line-height   :1px;
+  color         :#ffffff;
+}
+table{
+  margin-left   : auto;
+  margin-right  : auto;
+  border        : 1px;
+
+}
+th,td{
+  text-align    : center;
+  font-size     : 8px;
+}
+th {
+  background    : #FF6347;
+}
+td {
+  background    : #FFFFEE;
+  color         : #000000;
+}
+thead,tbody.add{
+  display       : block;
+}
+tbody.add{
+  overflow-x    : hidden;
+  overflow-y    : scroll;
+  height        : 150px;
+}
+
+a:link {
+  color         : #ffffff;
+}
+a:visited {
+  color         : #ffffff;
+}
+a:hover {
+  color         : orange;
+}
+a.kaisetu:link {
+  color         : #000000;
+}
+a.kaisetu:visited {
+  color         : #000000;
+}
+a.kaisetu:hover {
+  color         : orange;
+}
+
+.center{
+  text-align    : center;
+}
+
+table.white{
+  background-color: #ffffff;
+  border          :1px #000000 solid;
+}
+
+td.number{
+  text-align    : right;
+  background    : #FFFFEE;
+  color         : #000000;
+}
+footer{
+  justify-content: space-between;
+  background-color: #808000;
+  color: #ffffff;
+  height:60px;
+  text-align    : center;
+}
+
+/* 　==========シフト表の表記============　　*/
+.shift1,.shift2 {
+   font-size :10px;
+ }
+.red1,.blue1,.green1,.yellow1,.purple1{
+  font-size :10px;
+}
+.red2,.blue2,.green2,.yellow2,.purple2{
+  font-size :10px;
+}
+
+.shift1 {
+  background    : #333333;
+}
+
+.shift2{
+  width         : 20px;
+  background    : #333333;
+}
+
+th.shift{
+  font-size : 10px;
+  background-color: #333333;
+  color           : #FFFFFF;
+}
+.red1{
+  background-color: #FF3333;
+}
+.blue1{
+  background-color: #0000FF;
+  color           : #ffffff;
+}
+.green1{
+  background-color: #008000;
+  color           : #ffffff;
+}
+.yellow1{
+  background-color: #FFFF00;
+}
+.purple1{
+  background-color: #800080;
+  color           : #ffffff;
+}
+.red2{
+  background-color: #FF0066;
+}
+.blue2{
+  background-color: #3399FF;
+}
+.green2{
+  background-color: #00cc66;
+}
+.yellow2{
+  background-color: #FF9933;
+}
+.purple2{
+  background-color: #663399;
+  color           : #ffffff;
+}
+
+input.shift{
+  font-size     : 8px;
+  width: 50px;
+}
+
+input.per_hour{
+  font-size     : 8px;
+  width: 40px;
+}
+.ta_name{
+  font-size     : 8px;
+  width: 58px;
+}
+.ta_perhour{
+  font-size     : 8px;
+  width:48px;
+}
+.ta_shift{
+  font-size     : 6px;
+  width:36px;
+}
+.ta_time_safari{
+  font-size     : 6px;
+  width:35px;
+}
+.ta_time{
+  font-size     : 6px;
+  width:32px;
+}
+
+.ta_css_p{
+line-height   : 2px;
+font-size     : 12px;
+}
+.ta_time_val{
+  font-size     : 6px;
+  border:1px;
+}
+input.add{
+  width: 150px;
+}
+
+
+.left_text{
+  text-align    : left;
+}
+.red{
+  color         : red;
+  background-color: #ffcc00;
+  font-weight   : bolder;
+  font-size     : 12px;
+}
+.pr{
+  font-size     : 12px;
+}
+.pr_tl{
+  background-color: #ffcc00;
+  font-weight   : bolder;
+  font-size     : 12px;
+}
+.Explanation{
+max-width: 600px;
+width : 80%;
+margin-left   : auto;
+margin-right  : auto;
+border-radius : 10%;
+background-color: #ffffff;
+display         :block;
+padding         : 8px;
+color           : #000000;
+text-align    : left;
+}
+
+.subheading{
+  font-weight   : bolder;
+  text-decoration: underline;
+}
+.Annotation{
+  font-size     : 8px;
+}
+.aggregate{
+  width         : 20px;
+}
+.leftset{
+  float         : left;
+}
+.sukima{
+  background    : transparent;
+  text-align    : center;
+  font-size     : 10pt;
+  color         : #ffffff;
+}
+
+.smplebutton {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 9pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 5px 5px;   /* 余白       */
+  line-height   : 0.7em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 3px 3px 2px #666666;  /* 影の設定 */
+}
+.smplebutton:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+}
+.menubutton {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 9pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 10px 10px;   /* 余白       */
+  background    : #0066FF;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 0.7em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+}
+.menubutton:hover {
+  color         : #000033;     /* 文字色     */
+  background    : #99FFFF;     /* 背景色     */
+  border        : 2px solid #00ffff;    /* 枠の指定 */
+}
+.button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 10pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 10px 10px;   /* 余白       */
+  background    : #990000;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 0.7em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 4px 4px 2px #666666;  /* 影の設定 */
+  border        : 2px solid #660000;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000000;     /* 文字色     */
+  background    : #ff3366;     /* 背景色     */
+  border        : 2px solid #ff6666;    /* 枠の指定 */
+}
+.kaisetu_left{
+  background    : transparent;
+  text-align    : left;
+  font-size     : 12px;
+  color         : #000000;
+}
+#dialog1 {
+position: absolute;
+margin-left: 50%;
+margin-top: -20vw;
+transform:translate(-50%,-50%);
+
+width: 90%;
+max-width: 600px;
+border-radius : 10%;
+padding: 2px 2px;
+display: none;
+text-align: center;
+background    : #ffffff;
+border: 1px solid #aaa;
+box-shadow: 2px 2px 4px #888;
+color : #000000;
+}
+
+#dialog2 {
+position: absolute;
+margin-left: 50%;
+margin-top: -15vw;
+transform:translate(-50%,-50%);
+
+width: 90%;
+max-width: 600px;
+border-radius : 10%;
+padding: 2px 2px;
+display: none;
+text-align: center;
+background    : #ffffff;
+border: 1px solid #aaa;
+box-shadow: 2px 2px 4px #888;
+color : #000000;
+}
+
+
+@media only screen and (max-width:650px){
+ body {
+  background-color: #000055;
+  color           : #ffffff;
+  margin-left   : auto;
+  margin-right  : auto;
+  width           : 100%;
+ }
+ header{
+   width: 100%;
+   text-align    : center;
+   background    : #000055;
+   z-index: 2;
+ }
+ p{
+   font-size      : 8px;
+ }
+ dt{
+   font-size      : 8px;
+ }
+ dd{
+   font-size      : 8px;
+ }
+ caption{
+   font-size      : 8px;
+ }
+ th,td{
+   text-align    : center;
+   font-size     : 6px;
+ }
+ input.shift{
+   font-size     : 6px;
+   width: 44px;
+ }
+ input.per_hour{
+   font-size     : 6px;
+   width: 36px;
+ }
+ footer{
+   justify-content: space-between;
+   background-color: #808000;
+   color: #ffffff;
+   height:130px;
+   text-align    : center;
+ }
+
+ /* レスポンシブ用 */
+ .pc_window{
+   display:none;
+ }
+ .phone_window{
+   display:block;
+ }
+.small_text{
+  font-size :8px;
+}
+ .Annotation{
+   font-size      : 6px;
+ }
+ .aggregate{
+   width         : 10px;
+ }
+ .Explanation{
+   font-size :9px;
+ }
+.shift1,.shift2 {
+   font-size :6px;
+ }
+ th.shift{
+   font-size :6px;
+ }
+.red1,.blue1,.green1,.yellow1,.purple1{
+  font-size :6px;
+}
+.red2,.blue2,.green2,.yellow2,.purple2{
+  font-size :6px;
+}
